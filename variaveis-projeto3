@@ -1,0 +1,29 @@
+PROBLEMA:
+Em uma inscrição, o usuário informou os seguintes dados:
+- Nome: José Almeida da Silva
+- CPF: 12345678900
+- RG: 9517530
+- Altura: 1,78
+- Endereço: Rua A, 380 – Centro – Recife/PE
+
+No algoritmo, descreva como será:
+1. A proposta das variáveis;
+2. Elaborada a declaração das variáveis;
+3. Utilizado o comando de atribuição.
+
+
+RESOLUÇÃO:
+
+As variáveis e suas respectivas declarações serão:
+nome, CPF, RG, endereço: caracter
+altura: real
+
+Comandos de atribuição:
+nome <- "José Almeida da Silva"
+CPF <- "12345678900"
+RG <- "9517530"
+altura <- 1,78
+endereço <- "Rua A, 380 – Centro – Recife/PE"
+
+OBS: aspas duplas sinalizam tudo que é considerado texto, mesmo que sejam números indica não serem propícios a operações
+ matemáticas (caso do RG e CPF).
