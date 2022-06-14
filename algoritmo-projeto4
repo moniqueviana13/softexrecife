@@ -1,0 +1,59 @@
+PROBLEMA:
+Elabore um algoritmo que representa um cadastro. Ele deve ler os seguintes dados fornecidos pelo usuário:
+- Nome
+- Endereço
+- Cidade
+- CPF
+- RG
+- Idade
+- Nome do pai
+- Nome da mãe
+- Peso
+- Renda bruta
+Apresente as informações solicitadas no final do cadastro.
+
+RESOLUÇÃO:
+Var
+nome, endereco, cidade, CPF, RG, nomedopai, nomedamae: caractere
+idade, peso, rendabruta: real
+
+Inicio
+escreva ("Nome: ")
+leia (nome)
+escreva ("Endereço: ")
+leia (endereco)
+escreva ("Cidade: ")
+leia (cidade)
+escreva ("CPF: ")
+leia (CPF)
+escreva ("RG: ")
+leia (RG)
+escreva ("Idade: ")
+leia (idade)
+escreva ("Nome do pai: ")
+leia (nomedopai)
+escreva ("Nome da mãe: ")
+leia (nomedamae)
+escreva ("Peso: ")
+leia (peso)
+escreva ("Renda bruta: R$ ")
+leia (rendabruta)
+escreva ("CADASTRO FINALIZADO!")
+
+Fimalgoritmo
+
+Início da execução
+Nome: Marcela
+Endereço: Rua Bica dos Quatro Cantos
+Cidade: Olinda/PE
+CPF: 069.013.009-36
+RG: 1331986
+Idade: 25.0000000000
+Nome do pai: Alceu Valença
+Nome da mãe: Elba Ramalho
+Peso: 55.0000000000
+Renda bruta: R$ 5500.0000000000
+CADASTRO FINALIZADO!
+Fim da execução.
+
+OBSERVAÇÃO: acredito que na continuidade das aulas será explicado o ajuste de casas decimais das variáveis reais, por hora o ajuste poderia ser realizado considerando todas as variáveis como caracteres.
