@@ -1,0 +1,54 @@
+PROBLEMA:
+Construa um algoritmo de ordenação, utilizando o método bubble sort estudado. (Lembre-se que se trata de uma série de instruções que devem ser seguidas passo a passo).
+Para isso, você deve criar um método em que o tamanho do vetor seja dez e deve estar em ordem crescente.
+O vetor deverá:
+- comparar seus elementos dois a dois adjacentes;
+- se os elementos não estiverem em ordem, então ordenar;
+- senão, avançar para o próximo par;
+- repetir a operação até que nenhuma troca possa ser feita no vetor inteiro.
+
+RESOLUÇÃO: 
+
+Var
+bolha: vetor[1..10] de inteiro;
+i, j, troca: inteiro;
+
+Inicio
+bolha[1] <- 13;
+bolha[2] <- 3;
+bolha[3] <- 86;
+bolha[4] <- 74;
+bolha[5] <- 55;
+bolha[6] <- 36;
+bolha[7] <- 24;
+bolha[8] <- 6;
+bolha[9] <- 1;
+bolha[10] <- 8;
+
+para i de 1 ate 9 faca
+ 	para j de i+1 ate 10 faca
+         		se bolha[i] > bolha[j] entao
+           		 troca <- bolha[i]
+           		 bolha[i] <- bolha[j]
+           		 bolha[j] <- troca
+         		fimse
+      	fimpara
+ fimpara
+ para i de 1 ate 10 faca
+ escreval (bolha[i])
+ fimpara
+Fimalgoritmo
+
+ 8
+ 13
+ 24
+ 36
+ 55
+ 74
+ 86
+Fim da execução.
+
+OBS: se quiser utilizar números aleatórios, substituir os valores da bolha pela seguinte expressão:
+para i de 1 ate 10 faca
+bolha[i] <- randi(13)+1
+fimpara
