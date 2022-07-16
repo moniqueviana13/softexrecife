@@ -1,0 +1,98 @@
+PROBLEMA:
+Faça um algoritmo de ordenação utilizando o método insertion sort.
+Crie um método que execute as seguintes operações:
+- Tamanho do vetor: 30;
+- Utilize números ímpares;
+- Opere em ordem crescente.
+
+RESOLUÇÃO
+Var
+   insertion: vetor[1..30] de inteiro;
+   i, j, troca: inteiro;
+
+Inicio
+
+   insertion[1] <- 57;
+   insertion[2] <- 45;
+   insertion[3] <- 5;
+   insertion[4] <- 33;
+   insertion[5] <- 39;
+   insertion[6] <- 59;
+   insertion[7] <- 27;
+   insertion[8] <- 15;
+   insertion[9] <- 17;
+   insertion[10] <- 19;
+   insertion[11] <- 53;
+   insertion[12] <- 43;
+   insertion[13] <- 49;
+   insertion[14] <- 13;
+   insertion[15] <- 29;
+   insertion[16] <- 31;
+   insertion[17] <- 7;
+   insertion[18] <- 35;
+   insertion[19] <- 37;
+   insertion[20] <- 9;
+   insertion[21] <- 41;
+   insertion[22] <- 55;
+   insertion[23] <- 3;
+   insertion[24] <- 47;
+   insertion[25] <- 25;
+   insertion[26] <- 51;
+   insertion[27] <- 21;
+   insertion[28] <- 23;
+   insertion[29] <- 1;
+   insertion[30] <- 11;
+
+   para i de 2 ate 30 faca
+    troca <- insertion[i]
+    j <- i-1
+     		enquanto troca < insertion [j] faca
+       		 insertion[j+1] <- insertion[j]
+       		  j <- j-1
+      				   se j=0 entao
+          				  interrompa
+    				    fimse
+   		   fimenquanto
+   insertion [j+1] <- troca
+   fimpara
+
+   para i de 1 ate 30 faca
+   escreval (insertion[i])
+   fimpara
+Fimalgoritmo
+
+
+
+ 1
+ 3
+ 5
+ 7
+ 9
+ 11
+ 13
+ 15
+ 17
+ 19
+ 21
+ 23
+ 25
+ 27
+ 29
+ 31
+ 33
+ 35
+ 37
+ 39
+ 41
+ 43
+ 45
+ 47
+ 49
+ 51
+ 53
+ 55
+ 57
+ 59
+
+>>> Fim da execução do programa !
+  
