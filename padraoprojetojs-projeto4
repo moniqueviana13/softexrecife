@@ -1,0 +1,35 @@
+PROJETO 4
+Pesquise sobre padrões de projeto e escolha um para apresentar e descrever o seu funcionamento. Além disso, explique quais as vantagens e desvantagens comparados a outros e mostre suas referências.
+
+DESENVOLVIMENTO:
+Padrões de projeto (DESIGN PATTERNS) são soluções generalistas para problemas recorrentes durante o desenvolvimento de um software. Servem para melhorar a legibilidade (estrutura organizada), segurança (facilita a manutenção do sistema) e, também a eficiência quanto ao uso de memória e processamento de blocos de código complexos em Javascript (reutilização do objeto). Estão diretamente relacionados com arquitetura e engenharia de software. Podemos trabalhar com o paradigma orientado a objetos, procedural e imperativo, tudo ao mesmo tempo. Cada padrão de projeto representa uma solução para um tipo de problema. Não existe um conjunto universal de padrões que vai resolver todos os problemas que você ira encontrar.
+
+Categorias de padrões de projeto mais populares:
+Padrões de projeto criacionais (criação de objetos)
+Padrões de projeto estrutural (relacionamentos entre objetos)
+Padrões de projeto comportamental (comunicação entre objetos)
+Padrões de projeto de concorrência (programação multi-threaded)
+Padrões de projeto arquiteturais (MVC, MVP, MVVM)
+
+PADRÃO CONSTRUTOR COM PROTOTYPE: todos os objetos do Javascript possuem um objeto chamado prototype, que serve para adicionar propriedades e métodos a um objeto.
+Vantagem: permite copiar objetos existentes sem fazer seu código ficar dependente de suas classes.
+Desvantagem: clonar objetos complexos que têm referências circulares pode ser bem complicado.
+
+PADRÃO DO MÓDULO: usa o conceito de object literals para organizar o código e, dessa forma, usando closures (funções encadeadas) é possível criar o encapsulamento de propriedades e métodos. 
+Vantagem:
+Ideal para projetos grandes que precisam ser organizados em unidades coesas para manter a organização, utilizando módulos e namespaces.
+Desvantagem:
+É um pouco desgastante mudar a privacidade de um objeto
+Não é possível realizar testes unitários em objetos privados
+
+PADRÃO SINGLETON: são classes que só podem ser instanciadas uma vez, ou seja, a classe retorna uma referência ao seu próprio objeto. Dessa forma toda vez que formos usar essa classe, estaremos usando o mesmo objeto.
+Vantagem:
+Distribui os mesmos recursos de uma classe a toda a aplicação, provê um ponto de acesso único e global à instância de uma única classe.
+Desvantagem:
+Possui a característica de inicialização preguiçosa, ou seja, o singleton somente estará disponível em memória a partir do momento de sua inicialização.
+
+http://jordankobellarz.github.io/javascript/2015/01/30/guia-rapido-de-padroes-de-projeto-javascript.html
+https://refactoring.guru/pt-br/design-patterns
+
+
+
