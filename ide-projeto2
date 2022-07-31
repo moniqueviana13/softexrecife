@@ -9,14 +9,23 @@ Escreva, no mínimo, um parágrafo mostrando seu ambiente configurado, explique 
 
 RESOLUÇÃO:
 
-html>
+<!DOCTYPE html>
+<html lang="pt-br">
 <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meu primeiro programa...</title>
 </head>
 <body>
-<script type="text/javascript" src="global.js"> </script>
+<h1> Olá, Mundo! </h1>
+<script> 
+window.alert ('Minha primeira mensagem') 
+</script> 
 </body>
 </html>
 
-IDE VISUAL STUDIO CODE
+IDE UTILIZADA: VISUAL STUDIO CODE
+Prático e permite utilização para diversas linguagens de programação.
 
-ATIVIDADE SUBMETIDA A ACOMPANHAMENTO PEDAGÓGICO.
+
