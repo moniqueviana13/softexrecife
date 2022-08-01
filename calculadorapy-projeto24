@@ -1,0 +1,38 @@
+PROJETO 24
+Faça uma função calculadora de dois números com três parâmetros: os dois primeiros serão os números da operação e o terceiro será a entrada que definirá a operação a ser executada. Considera a seguinte definição:
+1. Soma
+2. Subtração
+3. Multiplicação
+4. Divisão
+Caso seja inserido um número de operação que não exista, o resultado deverá ser 0.
+
+DESENVOLVIMENTO:
+
+n1=float (input ("Digite o primeiro número: "))
+n2=float (input ("Digite o segundo número: "))
+operador=float(input ('Digite o operador, sendo 1 adição, 2 subtração, 3 multiplicação, 4 divisão: '))
+def calculadora (n1,n2,operador):
+     if operador==1:
+        return n1+n2
+    elif operador==2:
+        return n1-n2
+    elif operador==3:
+        return n1*n2
+    elif operador==4:
+        return n1/n2
+    else:
+        return 0
+resultado=calculadora(n1,n2,operador)
+print (resultado)
+
+PS C:\Users\monic\OneDrive\Área de Trabalho\python> & C:/Users/monic/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/monic/OneDrive/Área de Trabalho/python/olamundo.py"
+Digite o primeiro número: 2
+Digite o segundo número: 3
+Digite o operador, sendo 1 adição, 2 subtração, 3 multiplicação, 4 divisão: 4
+0.6666666666666666
+PS C:\Users\monic\OneDrive\Área de Trabalho\python> & C:/Users/monic/AppData/Local/Programs/Python/Python310/python.exe "c:/Users/monic/OneDrive/Área de Trabalho/python/olamundo.py"
+Digite o primeiro número: 2
+Digite o segundo número: 3
+Digite o operador, sendo 1 adição, 2 subtração, 3 multiplicação, 4 divisão: 5
+0
+PS C:\Users\monic\OneDrive\Área de Trabalho\python> 
