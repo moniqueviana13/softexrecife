@@ -1,0 +1,154 @@
+PROJETO 5
+Elabore um algoritmo que possa descobrir, através de perguntas e respostas, qual meio de transporte o usuário está pensando.
+O usuário deverá escolher uma das seguintes opções:
+- Trator
+- Moto
+- Bicicleta
+- Trem
+- Carro
+- Caminhão
+- Ônibus
+- Paraquedas
+- Balão
+- Avião
+- Helicóptero
+- Submarino
+- Barco
+- Navio
+- Lancha
+
+Para chegar ao resultado, só devem ser usadas perguntas que retornem "Sim" ou "Não".
+
+Exemplo:
+É terrestre? Sim.
+Cabe apenas uma pessoa? Sim.
+É pesado? Não.
+Tem pedal? Sim.
+Então, o transporte escolhido foi a bicicleta.
+
+DESENVOLVIMENTO VISUALG:
+
+Var
+   // Seção de Declarações das variáveis
+   terrestre, aquatico, protecao, porte, uso, combustivel: caracter
+   resultado, bicicleta, moto,carro,caminhao,onibus,trem,trator: caractere
+   submarino,navio,barco,lancha:caractere
+   helicoptero,paraquedas,balao,aviao: caractere
+
+Inicio
+   // Seção de Comandos, procedimento, funções, operadores, etc...
+   escreval ("ESCOLHA UM MEIO DE TRANSPORTE ENTRE AS OPÇÕES DISPONIBILIZADAS:")
+   escreval ("TERRESTRE:BICICLETA,MOTO,CARRO,CAMINHÃO,ÔNIBUS,TREM,TRATOR")
+   escreval ("AQUÁTICO:SUBMARINO,NAVIO,BARCO,LANCHA")
+   escreval ("AÉREO:HELICÓPTERO,PARAQUEDAS,BALÃO,AVIÃO")
+   escreval ("Responda com S para SIM ou N para NÃO - UTILIZAR MAIÚSCULAS")
+
+   escreval ("É terrestre? ")
+   leia (terrestre)
+   escreva ("É aquático? ")
+   leia (aquatico)
+   escreva ("Protege da chuva? ")
+   leia (protecao)
+   escreva ("Cabe mais de 5 pessoas? ")
+   leia (porte)
+   escreva ("Geralmente o uso atende a necessidades individuais? ")
+   leia (uso)
+   escreva ("Utiliza combustível? ")
+   leia (combustivel)
+
+   resultado <- terrestre+aquatico+protecao+porte+uso+combustivel
+
+   bicicleta <- "SNNNSN"
+   moto <- "SNNNSS"
+   carro <- "SNSNSS"
+   caminhao <- "SNSNNS"
+   onibus <- "SNSSNS"
+   trem <- "SNSSNN"
+   trator <- "SNNNNS"
+   submarino <- "NSSSNS"
+   navio <- "NSSSSS"
+   barco <- "NSNNSN"
+   lancha <- "NSNNSS"
+   helicoptero <- "NNSNSS"
+   paraquedas <- "NNNNSN"
+   balao <- "NNNSNN"
+   aviao <- "NNSSNS"
+
+   se resultado=bicicleta entao
+      escreva ("Bicicleta!")
+   senao
+      se resultado = moto entao
+         escreva ("Moto!")
+      senao
+         se resultado=carro entao
+            escreva ("Carro!")
+         senao
+              se resultado=caminhao entao
+                 escreva ("Caminhão!")
+              senao
+                   se  resultado=onibus entao
+                       escreva ("Ônibus!")
+                   senao
+                        se resultado=trem entao
+                           escreva ("Trem!")
+                        senao
+                             se resultado=trator entao
+                                escreva ("Trator!")
+                             senao
+                                  se resultado=submarino entao
+                                     escreva ("Submarino!")
+                                  senao
+                                       se resultado=navio entao
+                                          escreva ("Navio!")
+                                       senao
+                                            se resultado=barco entao
+                                               escreva ("Barco!")
+                                            senao
+                                                 se resultado=lancha entao
+                                                    escreva ("Lancha!")
+                                                 senao
+                                                      se resultado=helicoptero entao
+                                                         escreva ("Helicóptero!")
+                                                      senao
+                                                           se resultado=paraquedas entao
+                                                              escreva ("Paraquedas!")
+                                                           senao
+                                                                se resultado=balao entao
+                                                                   escreva ("Balão!")
+                                                                senao
+                                                                     se resultado=aviao entao
+                                                                        escreva ("Avião!")
+                                                                     senao
+                                                                          escreva ("Operação Inválida!")
+                                                                     fimse
+                                                                fimse
+                                                           fimse
+                                                      fimse
+                                                 fimse
+                                            fimse
+                                       fimse
+                                  fimse
+                             fimse
+                        fimse
+                   fimse
+              fimse
+         fimse
+      fimse
+   fimse
+
+fimalgoritmo
+
+Início da execução
+ESCOLHA UM MEIO DE TRANSPORTE ENTRE AS OPÇÕES DISPONIBILIZADAS:
+TERRESTRE:BICICLETA,MOTO,CARRO,CAMINHÃO,ÔNIBUS,TREM,TRATOR
+AQUÁTICO:SUBMARINO,NAVIO,BARCO,LANCHA
+AÉREO:HELICÓPTERO,PARAQUEDAS,BALÃO,AVIÃO
+Responda com S para SIM ou N para NÃO
+É terrestre? S
+É aquático? N
+Protege da chuva? N
+Cabe mais de 5 pessoas? N
+Geralmente o uso atende a necessidades individuais? S
+Utiliza combustível? N
+Bicicleta!
+Fim da execução.
