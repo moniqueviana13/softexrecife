@@ -1,0 +1,28 @@
+PROJETO 7
+
+Classifique dois objetos materiais e dois abstratos. Insira, no mínimo, três métodos e três atributos para cada.
+
+
+DESENVOLVIMENTO SUJEITO A AVALIAÇÃO PEDAGÓGICA
+
+
+MATERIAIS
+
+Carro
+Métodos: ligar, acelerar, freiar
+Atributos: marca, combustível, modelo, cor
+
+Cachorro
+Métodos: brincar, proteger, companhia
+Atributos: pelagem, raça, temperamento
+
+
+ABSTRATOS
+
+Contratar
+Métodos: técnico TI, analista de sistemas, programador
+Atributos: formação, experiência, soft skills
+
+Estudar
+Métodos: back end, front end, full stack
+Atributos: cursos online, bootcamps, networking
