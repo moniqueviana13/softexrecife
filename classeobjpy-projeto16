@@ -1,0 +1,27 @@
+PROJETO 16
+
+Crie uma classe de sua preferência com, no mínimo, uma variável, um método e um incremento. Depois, desenvolva três ou mais objetos para testar o código.
+
+DESENVOLVIMENTO SUBMETIDO A ANALISE PEDAGOGICA
+
+class Funcionario:
+
+    def __init__(self, nome, salario):
+        self._nome = nome
+        self._salario = salario
+        
+    def get_salario(self):
+        print("Sou ",self._nome, " e meu salário é R$ ", self._salario)
+    
+         
+f = Funcionario('José',5000)
+f.get_salario()
+f = Funcionario ('Marcela', 12500)
+f.get_salario()
+f = Funcionario ('Sabrina', 8330)
+f.get_salario()
+
+
+Sou  José  e meu salário é R$  5000
+Sou  Marcela  e meu salário é R$  12500
+Sou  Sabrina  e meu salário é R$  8330
