@@ -1,0 +1,42 @@
+PROJETO 17
+
+Crie uma classe e insira nela, no mínimo, dois atributos, os quais devem ter um método acessor (get) e um método modificador (set) para cada.
+Defina um objeto para cada atributo e elabore um construtor para criar alguma regra.
+A atividade pode ser realizada em qualquer linguagem de programação ou apenas utilizando algoritmos.
+
+DESENVOLVIMENTO SUJEITO A AVALIAÇÃO PEDAGÓGICA
+
+Classe Animal
+publico nome:caractere
+privado raca:caractere
+publico Metodo getNome( )
+  retorne nome
+FimMetodo
+
+publico Metodo setNome
+  (n:caractere)
+   nome=n
+FimMetodo
+
+publico Metodo getRaca( )
+  retorne raca
+FimMetodo
+
+publico Metodo setRaca
+  (r:caractere)
+  raca=r
+FimMetodo
+
+Metodo construtor( )
+  latir( )
+  latir="au"
+FimMetodo
+
+FimClasse
+
+a1=novo Animal
+a1.setNome("Natasha")
+a1.setRaca("Chihuahua")
+escreva (a1.getNome( ))
+escreva (a1.getRaca( ))
+
