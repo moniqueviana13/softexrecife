@@ -1,0 +1,15 @@
+PROJETO 18
+
+Crie dois pacotes baseados nas atribuições de uma empresa e inclua classes neles. Lembre-se de trabalhar com os padrões Java.
+
+DESENVOLVIMENTO SUBMETIDO A AVALIAÇÃO PEDAGÓGICA
+
+package notasfiscais;
+public class faturamento {
+      //declarações de atributos e métodos
+}
+
+package salario;
+public class administrativo {
+      //declarações de atributos e métodos
+}
