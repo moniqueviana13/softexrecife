@@ -18,6 +18,12 @@ Por fim, o programa deverá mostrar na tela:
 
 Veja em anexo um exemplo do arquivo “notas_alunos.csv”.
 
+(nota_1, nota_2, faltas)
+aluno_1 (7, 7, 1)
+aluno_2 (3, 10, 7)
+aluno_3 (9, 4, 2)
+aluno_4 (10, 6, 9) -> MAIOR MEDIA = 8 E MAIOR NÚMERO DE FALTAS
+MEDIA GERAL = 7
 
 DESENVOLVIMENTO SUBMETIDO A AVALIAÇÃO PEDAGÓGICA
 
