@@ -1,0 +1,22 @@
+PROJETO 12
+
+Crie uma árvore para cada lista abaixo, adicione um valor nela e remova outro, mas, em pelo menos uma das árvores, a remoção deve ser de um nó com dois filhos.
+Lista1 = 45,20,30,60,81,97,100,7,8,4
+Lista2 = 15,6,18,3,7,16,20,4
+
+DESENVOLVIMENTO SUBMETIDO A AVALIAÇÃO PEDAGÓGICA
+
+ARVORE 1
+NÓ RAIZ 45
+DIREITA 60,81,97,100
+ESQUERDA 20(30 DIR),7(8 DIR),4
+ADICIONAR 55 -> 60 (55 ESQ)
+RETIRAR 7 -> 8 ASSUME NÓ 
+
+
+ARVORE 2
+NÓ RAIZ 15
+DIREITA 18(16 ESQ), 20
+ESQUERDA 6(7 DIR COM SUB ARVORE 4 A ESQ), 3
+ADICIONAR 19 -> 20(19 ESQ)
+RETIRAR 6 -> 4 ASSUME NÓ COM SUB ÁRVORE 7 DIR, 3 PERMANECE NA POSIÇÃO ORIGINAL
