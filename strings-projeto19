@@ -1,0 +1,23 @@
+PROJETO 19
+Estruture três códigos, os quais devem conter uma função de manipulação de string que obtenha resultado.
+
+
+DESENVOLVIMENTO SUBMETIDO A AVALIAÇÃO PEDAGÓGICA
+
+mensagem = 'eu estudo na softex'
+print(len(mensagem)) #19 (os espaços são contabilizados)
+--------------------------------------------
+mensagem = 'EU ESTUDO NA SOFTEX'
+nova_mensagem = mensagem.lower()
+print(nova_mensagem) #eu estudo na softex
+OU
+minusculas = "QUERO TODAS EM MINÚSCULAS".lower()
+print(minusculas) # quero todas em minúsculas
+---------------------------------------------
+mensagem = 'eu estudo na softex'
+nova_mensagem = mensagem.upper()
+print(nova_mensagem) #EU ESTUDO NA SOFTEX
+OU
+maiusculas = "quero todas em maiúsculas".upper()
+print(maiusculas) # QUERO TODAS EM MAIÚSCULAS
+----------------------------------------------
