@@ -1,0 +1,22 @@
+PROJETO 13
+
+Crie uma situação em que ocorra uma exceção dentro de um código. Utilize try/catch para realizar a captura e tratamento dessa exceção. 
+
+
+DESENVOLVIMENTO SUBMETIDO A AVALIAÇÃO PEDAGÓGICA
+
+
+public Usuario obterUsuarios( ){
+  BancoDeDados bancoDeDados = new BancoDeDados( );
+  
+  try{
+      bancoDeDados.abrirConexao( );
+      bancoDeDados.buscarUsuarios( );
+   }
+   catch(ProblemaAoConectarBancoException e){
+       System.out.println("Houve um erro ao abrir a conexão");
+   }
+   finally{
+       bandoDeDados.fecharConexao( );
+   }
+ }
