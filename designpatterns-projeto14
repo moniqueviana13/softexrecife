@@ -1,0 +1,14 @@
+PROJETO 14
+
+Escolha e descreva um padrão de projetos.
+
+
+DESENVOLVIMENTO
+
+
+PADRÃO DE CRIAÇÃO SINGLETON: são classes que só podem ser instanciadas uma vez, ou seja, a classe retorna uma referência ao seu próprio objeto.
+Dessa forma toda vez que formos usar essa classe, estaremos usando o mesmo objeto.
+Vantagem:
+Distribui os mesmos recursos de uma classe a toda a aplicação, provê um ponto de acesso único e global à instância de uma única classe.
+Desvantagem:
+Possui a característica de inicialização preguiçosa, ou seja, o singleton somente estará disponível em memória a partir do momento de sua inicialização.
