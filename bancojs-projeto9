@@ -1,0 +1,20 @@
+PROJETO 9 
+
+Crie um código com um objeto chamado “Banco”. Ele deverá ter propriedades que incluem conta, saldo, tipo de conta e agência e os seus métodos devem ser:
+buscar saldo, depósito, saque e número da conta.
+
+Observações:
+- buscar saldo deve retornar o valor atual do saldo;
+- para o depósito, você deverá passar um valor como parâmetro e adicioná-lo no saldo final do objeto;
+- para o saque, você deverá passar um valor como parâmetro e subtraí-lo no saldo final do objeto;
+- o número da conta deve retornar o número da conta.
+
+DESENVOLVIMENTO SUBMETIDO A AVALIAÇÃO PEDAGÓGICA
+
+function Banco (saldo, deposito, saque) {
+  this.saldo=10;
+  this.deposito=5;
+  this.saque=2;
+ }
+ 
+ var meuBanco=new Banco (10,5,2);
